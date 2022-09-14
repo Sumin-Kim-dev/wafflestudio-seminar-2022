@@ -3,6 +3,7 @@ package com.wafflestudio.seminar.user.api
 import com.wafflestudio.seminar.user.domain.User
 import com.wafflestudio.seminar.user.domain.UserService
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
@@ -17,6 +18,14 @@ class UserController(
     @GetMapping("/user")
     fun getUser(
         @RequestParam userId: Int,
+    ): User {
+        return userService.getUser(userId)
+    }
+    
+    // 위와 같은 행동을 함
+    @GetMapping("/user/{userId}")
+    fun getUser2(
+        @PathVariable userId: Int,
     ): User {
         return userService.getUser(userId)
     }
