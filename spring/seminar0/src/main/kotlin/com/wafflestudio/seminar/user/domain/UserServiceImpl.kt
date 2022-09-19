@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service
 @Service
 class UserServiceImpl(
     private val userPort: UserPort,
-) : UserService {
+): UserService {
     override fun getUser(id: Int): User {
         return userPort.getUser(id)
     }

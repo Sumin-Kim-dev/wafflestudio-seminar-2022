@@ -1,4 +1,6 @@
 package com.wafflestudio.seminar.user.database
 
-interface UserRepository {
-}
+/**
+ * TBD
+ */
+interface UserRepository

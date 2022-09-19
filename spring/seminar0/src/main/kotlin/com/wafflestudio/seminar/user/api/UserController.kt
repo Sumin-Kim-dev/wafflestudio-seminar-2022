@@ -3,11 +3,15 @@ package com.wafflestudio.seminar.user.api
 import com.wafflestudio.seminar.user.domain.User
 import com.wafflestudio.seminar.user.domain.UserService
 import org.springframework.web.bind.annotation.GetMapping
+
 import org.springframework.web.bind.annotation.PathVariable
+import org.springframework.web.bind.annotation.RequestMapping
+
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
+// @RequestMapping("/user")
 class UserController(
     private val userService: UserService, // 의존성 주입(생성자 주입 방식)
 ) {
@@ -15,6 +19,7 @@ class UserController(
     // @Autowired
     // private lateinit var userService: UserService
     
+    // @GetMapping
     @GetMapping("/user")
     fun getUser(
         @RequestParam userId: Int,
