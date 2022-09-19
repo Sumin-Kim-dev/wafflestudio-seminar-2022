@@ -11,4 +11,5 @@ class SeminarController {
         @RequestHeader("MY-NAME") name: String, // 헤더를 받아서
     ): String {
         return "안녕하세요 $name 님 :)" // 문자열 리턴
+    }
 }
