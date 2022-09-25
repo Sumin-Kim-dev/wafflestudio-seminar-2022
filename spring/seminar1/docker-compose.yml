@@ -1,15 +1,18 @@
 version: '3.8'
 services:
   db:
-    image: mysql:latest
-    restart: always
+    image: mysql:latest # 띄울 이미지는 mysql
+    restart: always # 죽으면 재시작을 어떻게 할까? 항상(always)
     environment:
-      - MYSQL_DATABASE=seminar
-      - MYSQL_ROOT_PASSWORD=seminar
+      - MYSQL_DATABASE=seminar # 데이터베이스 이름
+      - MYSQL_ROOT_PASSWORD=seminar # root 계정의 비밀번호
     ports:
-      - '3306:3306'
+      - '3306:3306' # 내 머신의 3306포트와 격리해서 띄운 머신의 3306 포트를 이음
     volumes:
-      - db:/var/lib/mysql
+      - db:/var/lib/mysql # 주석 처리하고 띄우면? 껐다 켜면 다 날아감
 volumes:
   db:
     driver: local
+# docker : 컴퓨터 자원을 써서 프로그램을 운영. 프로그램이 대신 서버 관리를 해줌
+# docker-compose : 도커로 띄우는 컨테이너를 관리해줌
+# volume : 저장할 장소를 지정(마운트). 껐다 켜도 안 날아감!
