@@ -44,5 +44,7 @@ class UserServiceImpl(
         
         println("나이가 홀수라 살아남았어요!")
     }
-    
+//    인증되는지 확인 가능!    
+//    fun doAuthentication(authToken: String) {
+//    }
 }

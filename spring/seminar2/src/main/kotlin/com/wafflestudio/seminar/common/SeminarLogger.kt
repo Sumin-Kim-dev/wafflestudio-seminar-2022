@@ -14,9 +14,10 @@ import org.springframework.stereotype.Component
 class SeminarLogger {
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    @Before("within(com.wafflestudio.seminar..*?????+)")
+    @Before("within(com.wafflestudio.seminar..*Controller+)")
     fun doPublishEvent(jp: JoinPoint) {
         // TODO 어떤 요청이 들어왔는지 기록해보자.
         //  hint: ??? 부분을 수정해야 할 것 같다!
+        logger.info("HELLO WORLD! ${jp.signature}")
     }
 }
