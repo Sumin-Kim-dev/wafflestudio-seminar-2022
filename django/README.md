@@ -53,39 +53,39 @@
   </tr>
   <tr>
     <td>3</td>
-    <td>Django Rest Framework 톺아보기</td>
+    <td>Clean software with django</td>
     <td>11월 8일 (화) 오후 7시 30분</td>
     <td><a href="https://naver.me/xH2ledNk">서울대입구 스프링라운지</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>X</td>
+    <td><a href="./seminar3/seminar-2022-django-03.pdf">링크</a></td>
+    <td><a href="https://github.com/wafflestudio/seminar-2022-django-assignment3">링크</a></td>
+    <td><a href="https://snu-ac-kr.zoom.us/j/92435882092?pwd=WEJUOXpybVJjdDN2MEFETUh4ZDdxUT09">링크</a></td>
+    <td><a href="https://youtu.be/FvUXiaD7hIk">링크</a></td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Django가 왜 느려질까? 퍼포먼스 최적화</td>
+    <td>프로덕션 배포하기: wsgi, cloud computing service, cron jobs</td>
     <td>11월 15일 (화) 오후 7시 30분</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://naver.me/FPse947B">서울대 301동 203호</a></td>
+    <td><a href="./seminar4/사전준비.md">링크</a></td>
+    <td><a href="./seminar4/seminar-2022-django-04.pdf">링크</a></td>
+    <td><a href="https://github.com/wafflestudio/seminar-2022-django-assignment4">링크</a></td>
+    <td><a href="https://snu-ac-kr.zoom.us/j/98605541008?pwd=bktkV0wwWWFQcXNuS3d0ajF1NXZYZz09">링크</a></td>
+    <td><a href="https://youtu.be/yswQqdQAi7M">링크</a></td>
   </tr>
   <tr>
     <td>5</td>
-    <td>매력적인 이력서와 내가 낸 Django 코딩인터뷰</td>
+    <td>ORM과 N+1 쿼리 / Django는 왜 망할 수도 있을까?</td>
     <td>11월 29일 (화) 오후 7시 30분</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>서울대학교 내부 예정</td>
+    <td><a href="./seminar5/사전준비.md">링크</a></td>
+    <td><a href="./seminar5/seminar-2022-django-05.pdf">링크</a></td>
+    <td><a href="https://github.com/wafflestudio/seminar-2022-django-assignment5">링크</a></td>
+    <td><a href="https://snu-ac-kr.zoom.us/j/92398422530?pwd=UGVCOGhLWHdFR3NhOVdEMkc2bXcxQT09">링크</a></td>
     <td></td>
   </tr>
   <tr>
-    <td colspan="9">기말고사를 위한 휴강 후 Programmers 선발 진행</td>
+    <td colspan="9">Programmers 선발 진행</td>
   </tr>
 </table>
 
